@@ -6,4 +6,4 @@
    - name: Restart a service
      win_service:
       name: ArcGISWebAppBuilder
-      state: started
+      state: stopped
