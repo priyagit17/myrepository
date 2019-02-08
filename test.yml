@@ -5,5 +5,5 @@
    tasks:
    - name: Restart a service
      win_service:
-      name: Geocortex Core
+      name: ArcGISWebAppBuilder
       state: started
