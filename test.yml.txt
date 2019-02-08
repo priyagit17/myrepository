@@ -1,0 +1,9 @@
+---
+
+ - hosts: bma1dgis03.apac.ent.bhpbilliton.net
+
+   tasks:
+   - name: Restart a service
+     win_service:
+      name: Geocortex Core
+      state: started
